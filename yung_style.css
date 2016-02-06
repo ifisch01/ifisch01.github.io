@@ -5,8 +5,7 @@ Date: February 6th
 
 body {
 	background-image:url("IMG_1407.JPG");
-	background-size:contain;
-	background-repeat: no-repeat;
+	background-size: cover;
 	width: auto;
 	height: 100%;
 }
