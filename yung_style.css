@@ -3,4 +3,7 @@
 Date: February 6th
 **/
 
-body {background-image:url("IMG_1407.JPG"); overflow-x:hidden;}
+body {
+	background-image:url("IMG_1407.JPG");
+	background-repeat: no-repeat;
+}
