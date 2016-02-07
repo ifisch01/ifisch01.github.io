@@ -29,12 +29,8 @@ ul {
 	background-color: #333;
 }
 
-li {
-	float: top;
-}
-
 li a {
-	diplay: block;
+	diplay: inline;
 	color: white;
 	text-align: center;
 	padding: 14px 16px;
