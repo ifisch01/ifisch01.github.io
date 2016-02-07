@@ -17,7 +17,9 @@ body {
 	z-index: -1;
 }
 
-ul {
+#menu {
+	width: 100%;
+	overflow: hidden;
 	position: absolute;
 	top: 200px;
 	left: 0;
@@ -25,19 +27,22 @@ ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
-	display: inline-block;
 	background-color: #333;
+
 }
 
-li a {
-	diplay: block;
+#menu ul {
+
+}
+
+#menu li {
+	diplay: inline;
 	color: white;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
 }
 
-li a:hover {
+#menu a:hover {
 	background-color: #111;
 }
