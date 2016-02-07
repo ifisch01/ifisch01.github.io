@@ -12,6 +12,8 @@ Date: February 6th
 
 body {
 	background-size: cover;
+	background: rgba(0,0,0,.5);
+	opacity: 0;
 }
 
 h2 {
