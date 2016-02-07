@@ -3,15 +3,8 @@
 Date: February 6th
 **/
 
-/** body {
-	background-image:url("IMG_1407.JPG") no-repeat center center fixed;
-	background-size: cover;
-	width: auto;
-	height: 100%;
-} **/
-
 body {
-	background-size: cover;
+	background-size: contain;
 }
 
 h2 {
