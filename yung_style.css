@@ -5,6 +5,7 @@ Date: February 6th
 
 body {
 	background-size: contain;
+	background-color: transparent;
 }
 
 h2 {
@@ -15,6 +16,7 @@ h2 {
 }
 
 #bg {
+	opacity:0.5;
 	position: fixed;
 	bottom: -50%;
 	left: 0%;
