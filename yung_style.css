@@ -18,8 +18,13 @@ body {
 }
 
 #menu {
-	width: 100%;
-	overflow: hidden;
+	font-size: 26px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 500;
+}
+
+#menu ul {
 	position: absolute;
 	top: 200px;
 	left: 0;
@@ -27,12 +32,8 @@ body {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	overflow: hidden;
 	background-color: #333;
-
-}
-
-#menu ul {
-
 }
 
 #menu li {
