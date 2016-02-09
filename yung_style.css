@@ -86,7 +86,6 @@ a:visited{
 img.circle {
 	position: relative;
 	top: 100%;
-	width: auto px;
 	height: 250px;
 	border-radius: 70%;
 	z-index: -1;
