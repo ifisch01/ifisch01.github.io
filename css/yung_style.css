@@ -90,3 +90,7 @@ img.circle {
 	border-radius: 70%;
 	z-index: -1;
 }
+
+* {
+	border: 1px solid red;
+}
