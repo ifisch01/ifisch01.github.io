@@ -8,16 +8,48 @@ Date: February 6th
 html { 
 
 	overflow: hidden;
+	height: 100%;
 
 }
 
 body {
 
-  background: url("../images/Desktop_HD_All.png") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: 100% 100%;
+  background: #505D2B;
+  margin: 0;
+/*  width: 100%;
+  height: 100%;*/
+	
+}
+
+a {
+	color: white;
+}
+
+#menu {
+	display: flex;
+	float: right;
+}
+
+.link {
+	width: 135px;
+	padding-right: 50px;
+
+}
+
+#main_graphic {
+	display: flex;
+    justify-content: center;
+    height: 1200px; /* or other desired height */
+    overflow: hidden;
+}
+
+#main_graphic img {
+	flex: none;
+	position: absolute;
+	top: -550px;
+	height: 1900px;
+	padding-left: 260px;
+
 	
 }
 
@@ -26,78 +58,7 @@ header {
 
 }
 
-/*#bg_image {
 
-	height: 100%;
-  	z-index: -1;
-
-}*/
-
-
-/*
-#menu {
-	font-size: 26px;
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	font-style: normal;
-	font-weight: 500;
-	color: white;
-}
-
-ul {
-	list-style-type: square;
-}
-
-#menu a:hover {
-	color: black;
-}
-
-div.box {
-	margin-left: 10cm;
-	margin-bottom: 1cm;
-	padding-left: 1cm;
-	border-left: solid #2c3e50;
-}
-
-a {
-	color: white;
-	text-decoration: none;
-}
-
-
-a:visited{
-    color: white;
-}
-
-.grouping {
-	margin-left: 4cm;
-	float: left;
-	display: inline;
-	color: #2c3e50;
-}
-
-.bold {
-	display: inline-block;
-	font-weight: bold;
-}
-
-.content {
-	position: fixed;
-	bottom: 10%;
-	right: 40%;
-}
-
-.content:hover img {
-	opacity: 0.7;
-}
-
-img.circle {
-	position: relative;
-	top: 100%;
-	height: 250px;
-	border-radius: 70%;
-	z-index: -1;
-}*/
-
-* {
+/** {
 	border: 1px solid red;
-}
+}*/
