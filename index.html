@@ -4,35 +4,57 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <link href='https://fonts.googleapis.com/css?family=Lato:400,900italic,900,800italic,800,700italic,700,600italic,600,500italic,500,400italic,300italic,200italic,200,100italic,100,300' rel='stylesheet' type='text/css'>
-
-    <!-- Bootstrap Core CSS -->
-    <!-- <link href="bootstrap/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     <!-- Custom CSS -->
     <link href="css/yung_style.css" rel="stylesheet">
 
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+
     <title>Isaiah S. Fischer-Brown</title>
 
+</head>
 
-<body>
+
+<body onload="myFunction()" style="margin:0;">
+
+<div id="loader" class="show"></div>
+
+<script>
+var myVar;
+
+function myFunction() {
+    // myVar = setTimeout(showPage, 3000);
+    console.log("loader placeholder");
+}
+
+// function showPage() {
+//   $("#loader").toggleClass("show");
+//   // document.getElementById("myDiv").style.display = "block";
+// }
+</script>
+<img src="images/IMG_6031.JPG" class="bg">
+<img src="images/logo.png" class="brand">
+
 
 <!-- <div id="menu">
-    <h2> 
-        <a class="link">portfolio</a> 
-    </h2>
-    <h2> 
-        <a class="link">contact</a> 
-    </h2>
+    <div class="menu__link">Work</div>
+    <div class="menu__link">Resume</div>
+    <div class="menu__link">Contact</div>
+
 </div> -->
 
-<div id="main_graphic">
-        <img src="images/BlueRidge.png">
+<div class="info">
+    <p>Hi my name is Isaiah wheeee</p>
 </div>
+<div class="btn first__btn">portolio</div>
+<div class="btn second__btn">contact</div>
+
 
 </body>	
 
