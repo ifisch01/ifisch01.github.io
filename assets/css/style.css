@@ -44,9 +44,9 @@ body {
 }
 
 .logo {
-    max-width: 100px;
+    max-width: 180px;
     padding-left: 0;
-    padding-top: 5px;
+    padding-top: 0px;
 }
 
 .header-btn {
