@@ -2,6 +2,10 @@
 
 @media only screen and (min-width: 768px) {
 
+    .deepwork-to-slack {
+        max-width: 300px;
+    }
+
     .header-right {
         display: block;
         float: right;
@@ -10,7 +14,7 @@
 
     .header-headline {
         text-align: left;
-        max-width: 380px;
+        max-width: 400px;
         padding-top: 75px;
     }
 
@@ -36,10 +40,10 @@
     .ipad {
         display: block;
         position: absolute;
-        right: 100px;
+        right: 30px;
         z-index: 1;
-        height: 427px;
-        margin-top: 45px;
+        height: 257px;
+        margin-top: 88px;
         transform: rotate(-6deg);
         max-width: 45%;
         border-radius: 25px;
@@ -74,6 +78,11 @@
         padding-left: 100px;
     }
 
+    .white-section-text-expert {
+        text-align: justify;
+        padding: 50px 77px;
+    }
+
     .imac-section-desc {
         font-weight: 300;
         font-size: 15px;
@@ -88,7 +97,6 @@
         max-width: 1050px;
         margin: auto;
     }
-
 }
 
 .team {
@@ -115,6 +123,35 @@
 /* Medium Devices, Desktops */
 
 @media only screen and (min-width: 992px) {
+    
+    .ipad {
+        display: block;
+        position: absolute;
+        right: 100px;
+        z-index: 1;
+        height: 390px;
+        margin-top: 45px;
+        transform: rotate(-6deg);
+        max-width: 45%;
+        border-radius: 25px;
+        background: #fff;
+        box-shadow: inset 0 4px 7px 1px #fff, inset 0 -5px 20px rgba(173, 186, 204, .25), 0 0px 33px rgba(0, 21, 64, .14), 0 10px 20px rgba(0, 21, 64, .05);
+    }
+
+    .white-section-text-expert {
+        text-align: left;
+        padding-right: 300px;
+        padding-top: 50px;
+        padding-bottom: 0px;
+    }
+
+    .imac-section-desc {
+        max-width: 670px;
+    }
+
+    .deepwork-to-slack {
+        max-width: 400px;
+    }
 }
 
 /* Large Devices, Wide Screens */

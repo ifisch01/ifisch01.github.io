@@ -4,6 +4,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.new-font {
+    font-family: 'Petit Formal Script', cursive;
+}
+
 .header-right {
     display: none;
 }
@@ -11,6 +15,12 @@ body {
 .navbar-item {
     color: #ffffff;
     padding: 10px;
+}
+
+a:focus {
+    color: #ffffff;
+    text-decoration: none;
+    outline: none;
 }
 
 .navbar-item:hover {
@@ -32,6 +42,11 @@ body {
 }
 
 .light {
+    font-weight: 300;
+}
+
+.lighter {
+    font-size: 24px;
     font-weight: 300;
 }
 
@@ -156,7 +171,7 @@ body {
 }
 
 .features-section {
-    background-color: black;
+    background-color: #6568e0;
     padding-top: 40px;
     padding-bottom: 80px;
     text-align: center;
@@ -208,8 +223,8 @@ body {
 .feature-icon {
     background-color: white;
     border-radius: 50%;
-    height: 5.625em;
-    width: 5.625em;
+    height: 7.625em;
+    width: 7.625em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -228,18 +243,47 @@ body {
 }
 
 .feature-img {
-    max-width: 23px;
+    max-width: 64px;
+}
+
+.feature-img-slack {
+    max-width: 64px;
+    margin-left: 50px;
+}
+
+.add-to-slack {
+    max-width: 140px;
+}
+
+.deepwork-to-slack {
+    max-width: 400px;
+}
+
+.feature-img-coffee {
+    max-width: 64px;
+    margin-right: 7px;
 }
 
 .white-section {
     max-width: 1400px;
     margin: auto;
     overflow: hidden;
+}
 
+.white-section-expert {
+    max-width: 1400px;
+    margin: auto;
+    overflow: hidden;
+    background: url('../images/black_bg.png');
+    color: white;
 }
 
 .white-section-text {
     text-align: center;
+}
+
+.white-section-text-expert {
+    text-align: left;
 }
 
 .imac {
@@ -247,6 +291,11 @@ body {
 
 .imac-section-header {
     padding-bottom: 35px;
+    padding-top: 10px;
+}
+
+.center {
+    text-align: center;
 }
 
 .imac-section-desc {
@@ -270,7 +319,8 @@ body {
 }
 
 .pricing-background {
-    background-color: #F8F9F9;
+    background-color: #121266;
+    color: white;
 }
 
 .pricing-section-header {
@@ -279,7 +329,6 @@ body {
 
 .pricing-section-sub {
     padding-top: 10px;
-    color: grey;
 }
 
 .pricing-table {
@@ -304,7 +353,7 @@ body {
     height: 430px;
     padding: 36px 15px 45px;
     position: relative;
-    box-shadow: 5px 8.7px 40px rgba(99, 117, 138, 0.3);
+    /*box-shadow: 5px 8.7px 40px rgba(99, 117, 138, 0.3);*/
     border-radius: 7px;
 }
 
@@ -319,7 +368,7 @@ ul {
 .plan li::before, .mid-plan li:before {
     font-family: Material Icons;
     content: "check";
-    color: #3aeb8c;
+    color: #ff9800;
     position: absolute;
     left: -10px;
     position: relative;
@@ -349,9 +398,9 @@ ul {
 }
 
 .plan-btn {
-    background-color: #0ABCEB;
+    background-color: #ff9800;
     border-radius: 10px;
-    border: #0ABCEB;
+    border: #ff9800;
     width: 164px;
     height: 51px;
     color: white;
@@ -366,7 +415,7 @@ ul {
 }
 
 .plan-btn:hover {
-    background-color: #58d5f7;
+    background-color: #ff9800;
     color: white;
     border-radius: 20px;
     -webkit-box-shadow: -1px 9px 46px -17px rgba(43, 43, 43, 1);
@@ -404,6 +453,14 @@ ul {
 
 .team-social-icon {
     padding: 7px;
+}
+
+.behance {
+    max-width: 36px;
+}
+
+.linked {
+    max-width: 30px;
 }
 
 .blue-section {
