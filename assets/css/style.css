@@ -451,6 +451,11 @@ ul {
     padding-top: 25px;
 }
 
+p {
+    color: white;
+    padding-bottom: 20px;
+}
+
 .team-social-icon {
     padding: 7px;
 }

@@ -1,4 +1,30 @@
-/* Small Devices, Tablets */
+/* phones */
+@media only screen and (max-width: 412px) {
+
+    .header-btn {
+        display: none;
+    }
+
+}
+
+
+@media only screen and (max-width: 670px) {
+
+    .hero-background {
+        background: url('../images/pattern_ipad_small.png') no-repeat;
+    }
+
+    .strips {
+        display: none;
+    }
+
+    .light {
+        text-align: center;
+    }
+
+}
+
+
 
 @media only screen and (min-width: 768px) {
 
@@ -64,7 +90,7 @@
 
     .features-headline {
         color: white;
-        padding-bottom: 70px;
+        padding-bottom: 40px;
     }
 
     .logos {
@@ -157,4 +183,7 @@
 /* Large Devices, Wide Screens */
 
 @media only screen and (min-width: 1200px) {
+    .ipad {
+        height: 390px;
+    }
 }
